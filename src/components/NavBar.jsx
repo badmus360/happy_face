@@ -22,7 +22,7 @@ const NavBar = () => {
               <Link to='/about' >About Us</Link>
            </li>
            <li className='pr-4 text-red-500 font-bold glowing-link'>
-              <a href="/contact" className=''>Contact Us</a>
+              <Link to="/contact">Contact Us</Link>
            </li>
         </ul>  
         <div className='flex justify-between'>

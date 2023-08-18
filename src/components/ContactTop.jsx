@@ -55,7 +55,7 @@ const ContactTop = () => {
   return (
         <div className='bg-gradient-to-r from-green-200 to-purple-200 w-full'>
           <div className='mt-3 mb-3'>
-            <h1 className='text-center text-3xl'>Get in touch with us via our...</h1>
+            <h1 className='text-center text-3xl text-red-700 font-bold'>Get in touch with us via our...</h1>
           </div>
 
           <div className='grid gap-4 mx-5 sm:mx-10 md:mx-10 md:grid-cols-3 rounded-lg bg-white/50 py-5 relative'>
@@ -65,8 +65,8 @@ const ContactTop = () => {
                 <BsFillGeoAltFill className='text-6xl text-blue-600' />
               </div>
               <div className=''>
-                <h1 className=''>Office Address</h1>
-                <p className=''>
+                <h1 className='text-green-500 font-bold'>Office Address</h1>
+                <p className='text-green-800'>
                   41, Adeshokan Street, Off Balogun Ilawe Street, Dopemu, Agege, Lagos State, Nigeria
                 </p>
               </div>
@@ -76,16 +76,16 @@ const ContactTop = () => {
               <div className='flex justify-center'>
                 <BsFillEnvelopeAtFill className='text-6xl text-red-600'/>
               </div>
-              <h1 className=''>Mail Address</h1>
-              <p className=''>adveland@ademolink.org</p>
+              <h1 className='text-blue-500 font-bold'>Mail Address</h1>
+              <p className='text-blue-800'>adveland@ademolink.org</p>
             </div>
 
             <div className='px-4 grid item-center text-center'>
               <div className='flex justify-center'>
                 <BsFillTelephoneFill className='text-6xl text-green-600'/>
               </div>
-              <h1 className=''>Customer Service</h1>
-              <p className=''>0817 187 2043, 0817 187 2043</p>
+              <h1 className='text-red-500 font-bold'>Customer Service</h1>
+              <p className='text-red-800'>0817 187 2043, 0817 187 2043</p>
             </div>
 
           </div>

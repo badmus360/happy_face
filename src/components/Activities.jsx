@@ -353,9 +353,9 @@ const Activities = () => {
 
       <div className='relative z-10'>
         <h1 className='text-3xl mb-5 text-white text-center'><span className='text-green-600 '>Explore</span> <span className='text-pink-600'>Funtertainment</span> <span className='text-orange-600'>with</span> <span className='text-red-600'>US!!!</span></h1>
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center'>
 
-          <div  className='p-6 relative shadow-2xl bg-red-300 rounded-xl'>
+          <div  className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] lg:w-[222px] lg:h-[365px] relative shadow-2xl bg-red-300 rounded-xl'>
             <div className='h-32 w-full relative overflow-hidden group'>
               <div
                   style={{
@@ -382,7 +382,7 @@ const Activities = () => {
             </div>
           </div>
 
-          <div  className='p-6 relative shadow-2xl bg-yellow-300 rounded-xl'>
+          <div  className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] relative shadow-2xl bg-yellow-300 rounded-xl'>
             <div className='h-32 w-full relative overflow-hidden group'>
               <div
                   style={{
@@ -409,7 +409,7 @@ const Activities = () => {
             </div>
           </div>
 
-          <div className='p-6 relative shadow-2xl bg-green-300 rounded-xl'>
+          <div className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] relative shadow-2xl bg-green-300 rounded-xl'>
             <div className='h-32 w-full relative overflow-hidden group'>
               <div
                   style={{
@@ -437,7 +437,7 @@ const Activities = () => {
           </div>
 
 
-          <div className='p-6 relative shadow-2xl bg-blue-300 rounded-xl'>
+          <div className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] relative shadow-2xl bg-blue-300 rounded-xl'>
             <div className='h-32 w-full relative overflow-hidden group'>
               <div
                   style={{
@@ -465,7 +465,7 @@ const Activities = () => {
           </div>
 
 
-          <div className='p-6 relative shadow-2xl bg-indigo-300 rounded-xl'>
+          <div className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] relative shadow-2xl bg-indigo-300 rounded-xl'>
             <div className='h-32 w-full relative overflow-hidden group'>
               <div
                   style={{
@@ -493,7 +493,7 @@ const Activities = () => {
           </div>
 
 
-          <div className='p-6 relative shadow-2xl bg-purple-300 rounded-xl'>
+          <div className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] relative shadow-2xl bg-purple-300 rounded-xl'>
             <div className='h-32 w-full relative overflow-hidden group'>
               <div
                   style={{
@@ -521,7 +521,7 @@ const Activities = () => {
           </div>
 
 
-          <div className='p-6 relative shadow-2xl bg-orange-300 rounded-xl'>
+          <div className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] relative shadow-2xl bg-orange-300 rounded-xl'>
             <div className='h-32 w-full relative overflow-hidden group'>
               <div
                   style={{
@@ -549,7 +549,7 @@ const Activities = () => {
           </div>
 
 
-          <div className='p-6 relative shadow-2xl bg-pink-300 rounded-xl'>
+          <div className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] relative shadow-2xl bg-pink-300 rounded-xl'>
             <div className='h-32 w-full relative overflow-hidden group'>
               <div
                   style={{
@@ -577,7 +577,7 @@ const Activities = () => {
           </div>
 
 
-          <div className='p-6 relative shadow-2xl bg-violet-300 rounded-xl'>
+          <div className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] relative shadow-2xl bg-violet-300 rounded-xl'>
             <div className='h-32 w-full relative overflow-hidden group'>
               <div
                   style={{

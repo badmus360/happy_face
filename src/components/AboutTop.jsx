@@ -164,73 +164,62 @@ const slides1 = [
     };
 
   return (
-       <div className='w-full bg-gradient-to-r from-green-200 to-purple-200 min-h-screen px-10 sm:px-10 pb-10 sm:pb-10 lg:pb-10 md:pb-10 lg:px-10 md:px-10 xl:10 flex flex-col items-center justify-center relative '>
-          
+       <div className='w-full bg-gradient-to-r from-green-200 to-purple-200 min-h-screen px-10 sm:px-10 pb-10 sm:pb-10 lg:pb-10 md:pb-10 lg:px-10 md:px-10 xl:10 flex flex-col items-center justify-center relative '>   
           <div className='text-center text-3xl mb-4 font-bold mt-6'><span className='text-red-500'>Who we are</span> <span className='text-yellow-500'>and</span> <span className='text-green-500'>what we do</span><span className='text-purple-500'>...</span></div>
-  
-              <div className='grid gap-10'>
-                   <div className='bg-black grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 rounded-lg shadow-md'>
-                      <div className='relative overflow-hidden group md:col-span-1'>
-                              {/* <div
-                            style={{
-                            backgroundImage: `url(${slides1[currentIndex1].src})`,
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center',
-                            width: '100%',
-                            height: '100%',
-                            transition: 'background-image 0.5s',
-                          }} className='w-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce'
-                          ></div>  */}
-                          <img src={image2A} className='w-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
+              <div className='grid gap-10 sm:grid md:grid lg:grid justify-center group'>
+
+                  <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[700px] lg:h-[700px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 rounded-lg shadow-md'>
+                      <div className='relative sm:h-[245px] overflow-hidden group md:col-span-1'>
+                          <img src={image2A} className='w-full sm:h-[245px] rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
                           <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
                       </div>
-                      <aside class="bg-blue-300 mt-1 sm:mt-0 md:mt-0 sm:ml-2 md:ml-4 rounded-lg p-2">
+                      <aside class="bg-blue-300 sm:h-[245px] mt-1 sm:mt-0 md:mt-0 sm:ml-2 md:ml-4 rounded-lg p-2">
                               <span className='text-2xl font-bold'>...we are funstatic planners</span>
-                              <p className='text-xl'> we're here to make sure you have the most amazing time ever! Imagine us as your magical party helpers, like the wizards of fun! We're the ones who sprinkle joy, laughter, and excitement into special events. From cool games to awesome decorations, we're like your very own team of party experts!</p>
+                              <p className='text-xl sm:text-lg'> we're here to make sure you have the most amazing time ever! Imagine us as your magical party helpers, like the wizards of fun! We're the ones who sprinkle joy, laughter, and excitement into special events. From cool games to awesome decorations, we're like your very own team of party experts!</p>
                       </aside>
                   </div>
   
-                 <div className='bg-black grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 rounded-lg shadow-md'>
-                      <aside class="bg-green-300 mt-1 sm:mt-0 md:mt-0 sm:mr-2 md:mr-4 rounded-lg p-2">
+                 <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[700px] lg:h-[700px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 rounded-lg shadow-md'>
+                      <aside class="bg-green-300 mt-1 sm:h-[245px] sm:mt-0 md:mt-0 sm:mr-2 md:mr-4 rounded-lg p-2">
                               <span className='text-2xl font-bold'>...we are party shakers</span>
-                              <p className='text-xl'>we've got a secret ingredient to make your parties shake with excitement! Imagine us as the musical magicians who bring the beats and rhythms that make your feet tap, your hips sway, and your heart dance. We're the ones with the coolest DJ music that's like a sprinkle of magic dust over your party</p>
+                              <p className='text-xl sm:text-lg'>we've got a secret ingredient to make your parties shake with excitement! Imagine us as the musical magicians who bring the beats and rhythms that make your feet tap, your hips sway, and your heart dance. We're the ones with the coolest DJ music that's like a sprinkle of magic dust over your party</p>
                       </aside>
-                      <div className='relative overflow-hidden group md:col-span-1'>
-                          <img src={image2A} className='w-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
+                      <div className='relative mt-[3px] sm:mt-0 md:mt-0 lg:mt-0 sm:h-[245px] overflow-hidden group md:col-span-1'>
+                          <img src={image2A} className='w-full sm:h-[245px] rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
                           <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
                       </div>
                   </div>
                   
-                  <div className='bg-black grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 rounded-lg shadow-md'>
-                      <div className='relative overflow-hidden group md:col-span-1'>
-                          <img src={image2A} className='w-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
+                  <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[700px] lg:h-[700px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 rounded-lg shadow-md'>
+                      <div className='relative sm:h-[245px] overflow-hidden group md:col-span-1'>
+                          <img src={image2A} className='w-full sm:h-[245px] rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
                           <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
                       </div>
-                      <aside class="bg-yellow-300 mt-1 sm:mt-0 md:mt-0 sm:ml-2 md:ml-4 rounded-lg p-2">
+                      <aside class="bg-yellow-300 sm:h-[245px] mt-1 sm:mt-0 md:mt-0 sm:ml-2 md:ml-4 rounded-lg p-2">
                               <span className='text-2xl font-bold'>...we create</span>
-                              <p className='text-xl'>We're not just ordinary creators; we're the wizards behind the scenes, crafting enchanting items that capture the spirit of the amusement park. From whimsical artwork that captures the joy of the carousel to cozy blankets that make you feel like you're on the Ferris wheel, we pour our heart and soul into every creation.</p>
+                              <p className='text-xl sm:text-lg'>We're not just ordinary creators; we're the wizards behind the scenes, crafting enchanting items that capture the spirit of the amusement park. From whimsical artwork that captures the joy of the carousel to cozy blankets that make you feel like you're on the Ferris wheel, we pour our heart and soul into every creation.</p>
                       </aside>
                   </div>
   
-                  <div className='bg-black grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 rounded-lg shadow-md'>
-                      <aside class="bg-pink-300 mt-1 sm:mt-0 md:mt-0 sm:mr-2 md:mr-4 rounded-lg p-2">
+                  <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[700px] lg:h-[700px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 rounded-lg shadow-md'>
+                      <aside class="bg-pink-300 sm:h-[245px] mt-1 sm:mt-0 md:mt-0 sm:mr-2 md:mr-4 rounded-lg p-2">
                               <span className='text-2xl font-bold'>...we sell</span>
-                              <p className='text-xl'>Are you ready to take a piece of an amusement park magic? "bringing the thrill of the amusement park right to you Imagine this: you're riding the happiest roller coasters, playing the most exciting games. Now, what if we told you that you can keep that excitement alive even after you've left the park.</p>
+                              <p className='text-xl sm:text-lg'>Are you ready to take a piece of an amusement park magic? "bringing the thrill of the amusement park right to you Imagine this: you're riding the happiest roller coasters, playing the most exciting games. Now, what if we told you that you can keep that excitement alive even after you've left the park.</p>
                       </aside>
-                      <div className='relative overflow-hidden group md:col-span-1'>
-                          <img src={image2A} className='w-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
+                      <div className='relative mt-[3px] sm:mt-0 md:mt-0 lg:mt-0 sm:h-[245px] overflow-hidden group md:col-span-1'>
+                          <img src={image2A} className='w-full sm:h-[245px] rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
                           <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
                       </div>
                   </div>
   
-                  <div className='bg-black grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 rounded-lg shadow-md'>
-                      <div className='relative overflow-hidden group md:col-span-1'>
-                          <img src={image2A} className='w-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
+                  <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[700px] lg:h-[700px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 rounded-lg shadow-md'>
+                      <div className='relative sm:h-[245px] overflow-hidden group md:col-span-1'>
+                          <img src={image2A} className='w-ful sm:h-[245px] rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
                           <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
                       </div>
-                      <aside class="bg-cyan-300 mt-1 sm:mt-0 md:mt-0 sm:ml-2 md:ml-4 rounded-lg p-2">
+                      <aside class="bg-cyan-300 sm:h-[245px] mt-1 sm:mt-0 md:mt-0 sm:ml-2 md:ml-4 rounded-lg p-2">
                               <span className='text-2xl font-bold'>...we rent</span>
-                              <p className='text-xl'>Imagine this: the thrill of riding a roller coaster, the joy of playing games, and the wonder of exploring new worlds. Now, what if we told you that you can have all that excitement and more, anytime you want? That's exactly what "FunWorld Creations" is here for – to fill your days with laughter, play, and endless amusement!</p>
+                              <p className='text-xl sm:text-lg'>Imagine this: the thrill of riding a roller coaster, the joy of playing games, and the wonder of exploring new worlds. Now, what if we told you that you can have all that excitement and more, anytime you want? That's exactly what "FunWorld Creations" is here for – to fill your days with play, and endless amusement!</p>
                       </aside>
                   </div> 
   
@@ -240,3 +229,16 @@ const slides1 = [
 }
 
 export default AboutTop
+
+
+
+     {/* <div
+                            style={{
+                            backgroundImage: `url(${slides1[currentIndex1].src})`,
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                            width: '100%',
+                            height: '100%',
+                            transition: 'background-image 0.5s',
+                          }} className='w-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce'
+                          ></div>  */}
