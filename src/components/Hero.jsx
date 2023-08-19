@@ -40,7 +40,7 @@ const Hero = () => {
   };
 
   return (
-    <div className='h-[340px] w-full relative group'>
+    <div className='h-[340px] lg:h-[500px] xl:h-[600px] w-full relative group'>
       <div
         style={{
           backgroundImage: `url(${slides[currentIndex].src})`,

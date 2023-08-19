@@ -55,47 +55,51 @@ const ContactTop = () => {
   return (
         <div className='bg-gradient-to-r from-green-200 to-purple-200 w-full'>
           <div className='mt-3 mb-3'>
-            <h1 className='text-center text-3xl text-red-700 font-bold'>Get in touch with us via our...</h1>
+            <h1 className='text-center text-red-700 font-bold text-4xl  sm:text-5xl sm:py-1 md:text-5xl md:py-1 lg:py-1 lg:text-6xl xl:py-2 xl:text-7xl'>Get in touch with us via our...</h1>
           </div>
 
           <div className='grid gap-4 mx-5 sm:mx-10 md:mx-10 md:grid-cols-3 rounded-lg bg-white/50 py-5 relative'>
             
             <div className='px-4 grid item-center text-center'>
               <div className='flex justify-center'>
-                <BsFillGeoAltFill className='text-6xl text-blue-600' />
+                <BsFillGeoAltFill className='text-6xl text-blue-600 sm:text-[100px] md:text-[95px] lg:text-[110px] xl:text-[150px]' />
               </div>
-              <div className=''>
-                <h1 className='text-green-500 font-bold'>Office Address</h1>
-                <p className='text-green-800'>
+              <div className='lg:pt-2 xl:pt-4'>
+                <h1 className='text-green-500 font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-5xl'>Office Address</h1>
+                <p className='text-green-800 text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl'>
                   41, Adeshokan Street, Off Balogun Ilawe Street, Dopemu, Agege, Lagos State, Nigeria
                 </p>
               </div>
             </div>
 
-            <div className='px-4 grid item-center text-center'>
+            <div className='px-4 grid border-red-500 border-t-2 mx-4 sm:mx-7 sm:border-red-500 sm:border-t-2 md:border-t-0 md:border-red-500 md:border-l-2 lg:border-red-500 lg:border-l-2 xl:border-red-500 xl:border-l-2 item-center text-center'>
               <div className='flex justify-center'>
-                <BsFillEnvelopeAtFill className='text-6xl text-red-600'/>
+                <BsFillEnvelopeAtFill className='text-6xl text-red-600 sm:text-[100px] md:text-[95px] lg:text-[110px] xl:text-[150px]'/>
               </div>
-              <h1 className='text-blue-500 font-bold'>Mail Address</h1>
-              <p className='text-blue-800'>adveland@ademolink.org</p>
+              <div className='xl:pt-0'>
+              <h1 className='text-blue-500 font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-5xl'>Mail Address</h1>
+              <p className='text-blue-800 lg:text-3xl text-2xl sm:text-2xl md:text-2xl xl:text-4xl'>adveland@ademolink.org</p>
+              </div>
             </div>
 
-            <div className='px-4 grid item-center text-center'>
-              <div className='flex justify-center'>
-                <BsFillTelephoneFill className='text-6xl text-green-600'/>
+            <div className='px-4 grid border-green-500 border-t-2 mx-4 sm:mx-7 sm:border-green-500 sm:border-t-2 md:border-t-0 md:border-green-500 md:border-l-2 lg:border-green-500 lg:border-l-2 xl:border-green-500 xl:border-l-2 item-center text-center'>
+              <div className='flex justify-center mt-2'>
+                <BsFillTelephoneFill className='text-6xl text-green-600 sm:text-[100px] md:text-[95px] lg:text-[110px] xl:text-[150px]'/>
               </div>
-              <h1 className='text-red-500 font-bold'>Customer Service</h1>
-              <p className='text-red-800'>0817 187 2043, 0817 187 2043</p>
+              <div className='xl:pt-0'>
+              <h1 className='text-red-500 font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-5xl'>Customer Service</h1>
+              <p className='text-red-800 lg:text-3xl text-2xl sm:text-2xl md:text-2xl xl:text-4xl'>0817 187 2043, 0817 187 2043</p>
+              </div>
             </div>
 
           </div>
 
           <div style={containerStyle} className='flex-col bg-white/50 my-5 pl-7 pr-12 rounded-lg py-6 '>
-            <div className=''>
+            <div className='text-2xl sm:text-3xl font-bold'>
               Reachout to Us...
             </div>
             <form style={formStyle} onSubmit={handleSubmit}>
-              <label style={labelStyle} htmlFor="name">
+              <label style={labelStyle} htmlFor="name" className='text-xl sm:text-2xl'>
                 Name
               </label>
               <input
@@ -105,9 +109,10 @@ const ContactTop = () => {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
+                className=''
               />
 
-              <label style={labelStyle} htmlFor="email">
+              <label style={labelStyle} htmlFor="email" className='text-xl sm:text-2xl'>
                 Email
               </label>
               <input
@@ -119,7 +124,7 @@ const ContactTop = () => {
                 required
               />
 
-              <label style={labelStyle} htmlFor="message">
+              <label style={labelStyle} htmlFor="message" className='text-xl sm:text-2xl'>
                 Message
               </label>
               <textarea
@@ -130,7 +135,7 @@ const ContactTop = () => {
                 required
               ></textarea>
 
-              <button style={{ ...buttonStyle, ...buttonHoverStyle }} type="submit">
+              <button style={{ ...buttonStyle, ...buttonHoverStyle }} type="submit" className='text-3xl font-bold'>
                 Submit
               </button>
             </form>

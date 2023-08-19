@@ -3,9 +3,9 @@ import image1 from '../assets/logooo.png'
 
 const TopBar = () => {
   return (
-    <div className='mt-11 py-2 sm:flex sm:py-2 sm:px-2 justify-between sm:items-center bg-gradient-to-r from-yellow-500 to-red-500 w-full z-20'>
+    <div className='mt-11 lg:mt-[84px] xl:mt-[87px] py-2 sm:flex sm:py-2 sm:px-2 justify-between sm:items-center bg-gradient-to-r from-yellow-500 to-red-500 w-full z-20 '>
       <div className='flex items-center justify-center sm:justify-start'>
-        <img src={image1} className='h-10' />
+        <img src={image1} className='h-10 lg:h-[70px] xl:h-[70px]' />
       </div>
 
 
@@ -41,12 +41,12 @@ const TopBar = () => {
       </style>
 
       <div className='flex items-center justify-center sm:justify-start'>
-        <span className='text-purple-600 font-extrabold text-center text-2xl glowing-link'>Happy Face Kiddies Events</span>
+        <span className='text-purple-600 font-extrabold text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl glowing-link'>Happy Face Kiddies Events</span>
       </div>
       
       <div className='flex items-center justify-center sm:justify-end mt-2 sm:mt-0'>
-        <button className='bg-gradient-to-r from-pink-500 to-red-600 rounded-full pr-5 pl-4 text-white flex items-center pt-1 pb-1 glowing-button'>
-          Subscribe <IoLogoYoutube className='ml-3' />
+        <button className='bg-gradient-to-r from-pink-500 to-red-600 rounded-full pr-5 pl-4 text-white flex items-center pt-1 pb-1 glowing-button lg:text-3xl xl:text-4xl'>
+          Subscribe <IoLogoYoutube className='ml-3 ' />
         </button>
       </div>
     </div>
