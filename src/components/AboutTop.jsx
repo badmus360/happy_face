@@ -168,7 +168,7 @@ const slides1 = [
           <div className='text-center text-4xl sm:text-5xl mb-4 font-bold mt-6 xl:mb-6 xl:mt-8 lg:text-[50px] xl:text-[70px]'><span className='text-red-500'>Who we are</span> <span className='text-yellow-500'>and</span> <span className='text-green-500'>what we do</span><span className='text-purple-500'>...</span></div>
               <div className='grid gap-10 sm:grid md:grid lg:grid justify-center group'>
 
-                  <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
+                  <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 pb-3 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
                       <div className='relative h-full overflow-hidden group md:col-span-1'>
                           <img src={image2A} className='w-full h-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
                           <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
@@ -179,18 +179,18 @@ const slides1 = [
                       </aside>
                   </div>
   
-                 <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 rounded-lg shadow-md'>
+                 <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 b-5 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
                       <aside class="bg-green-300 mt-1 h-full sm:mt-0 md:mt-0 sm:mr-2 md:mr-4 rounded-lg p-2">
                               <span className='text-2xl font-bold lg:text-[38px] xl:text-[45px]'>...we are party shakers</span>
                               <p className='text-xl sm:text-lg lg:text-3xl xl:text-4xl'>we've got a secret ingredient to make your parties shake with excitement! Imagine us as the musical magicians who bring the beats and rhythms that make your feet tap, your hips sway, and your heart dance. We're the ones with the coolest DJ music that's like a sprinkle of magic dust over your party</p>
                       </aside>
-                      <div className='relative mt-[3px] sm:mt-0 md:mt-0 lg:mt-0 h-full overflow-hidden group md:col-span-1'>
+                      <div className='relative mt-[9px] sm:mt-0 md:mt-0 lg:mt-0 h-full overflow-hidden group md:col-span-1'>
                           <img src={image2A} className='w-full h-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
                           <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
                       </div>
                   </div>
                   
-                  <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 rounded-lg shadow-md'>
+                  <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
                       <div className='relative h-full overflow-hidden group md:col-span-1'>
                           <img src={image2A} className='w-full h-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
                           <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
@@ -201,7 +201,7 @@ const slides1 = [
                       </aside>
                   </div>
   
-                  <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 rounded-lg shadow-md'>
+                  <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
                       <aside class="bg-pink-300 h-full mt-1 sm:mt-0 md:mt-0 sm:mr-2 md:mr-4 rounded-lg p-2">
                               <span className='text-2xl font-bold lg:text-[38px] xl:text-[45px]'>...we sell</span>
                               <p className='text-xl sm:text-lg lg:text-3xl xl:text-4xl'>Are you ready to take a piece of an amusement park magic? "bringing the thrill of the amusement park right to you Imagine this: you're riding the happiest roller coasters, playing the most exciting games. Now, what if we told you that you can keep that excitement alive even after you've left the park.</p>
@@ -212,7 +212,7 @@ const slides1 = [
                       </div>
                   </div>
   
-                  <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 rounded-lg shadow-md'>
+                  <div className='bg-black w-[250px] h-[500px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
                       <div className='relative h-full overflow-hidden group md:col-span-1'>
                           <img src={image2A} className='w-full h-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
                           <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
