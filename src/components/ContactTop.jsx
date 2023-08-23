@@ -15,13 +15,13 @@ const ContactTop = () => {
 
   const containerStyle = {
     textAlign: 'center',
-    margin: '2rem',
+    // margin: '2rem',
   };
 
   const formStyle = {
     display: 'flex',
     flexDirection: 'column',
-    maxWidth: '400px',
+    // maxWidth: '400px',
     margin: '0 auto',
   };
 
@@ -94,53 +94,54 @@ const ContactTop = () => {
 
           </div>
 
-          <div style={containerStyle} className='flex-col bg-white/50 my-5 pl-7 pr-12 rounded-lg py-6 '>
-            <div className='text-2xl sm:text-3xl font-bold'>
-              Reachout to Us...
+          <div style={containerStyle} className='flex-col bg-white/50 mx-[20px] sm:mx-[40px] lg:mx-[100px] xl:mx-[90px] my-5 pl-7 pr-12 rounded-lg py-6 sm:my-[40px]'>
+              <div className='text-orange-500 text-4xl sm:text-4xl lg:text-4xl xl:text-5xl font-bold'>
+                Reach Out to Us...
+              </div>
+              <form style={formStyle} onSubmit={handleSubmit} className='mt-5 items-center'>
+                <label style={labelStyle} htmlFor="name" className='text-3xl sm:text-2xl'>
+                  Name
+                </label>
+                <input
+                  style={inputStyle}
+                  type="text"
+                  id="name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  required
+                  className='w-[350px] h-[50px] sm:w-[450px] sm:h-[60px] md:w-[600px] md:h-[60px] text-xl sm:text-2xl xl:w-[640px] xl:h-[70px] xl:text-5xl'
+                />
+
+                <label style={labelStyle} htmlFor="email" className='text-3xl sm:text-2xl'>
+                  Email
+                </label>
+                <input
+                  style={inputStyle}
+                  type="email"
+                  id="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                  className='w-[350px] h-[50px] sm:w-[450px] sm:h-[60px] md:w-[600px] md:h-[60px] text-xl sm:text-2xl xl:w-[640px] xl:h-[70px] xl:text-5xl'
+                />
+
+                <label style={labelStyle} htmlFor="message" className='text-3xl sm:text-2xl'>
+                  Message
+                </label>
+                <textarea
+                  style={inputStyle}
+                  id="message"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  required
+                  className='w-[350px] h-[250px] sm:w-[450px] md:w-[600px] text-xl xl:w-[640px] xl:h-[300px] xl:text-3xl'
+                ></textarea>
+
+                <button style={{ ...buttonStyle, ...buttonHoverStyle }} type="submit" className='text-3xl font-bold mt-5 w-[300px]'>
+                  Submit
+                </button>
+              </form>
             </div>
-            <form style={formStyle} onSubmit={handleSubmit}>
-              <label style={labelStyle} htmlFor="name" className='text-xl sm:text-2xl'>
-                Name
-              </label>
-              <input
-                style={inputStyle}
-                type="text"
-                id="name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                required
-                className=''
-              />
-
-              <label style={labelStyle} htmlFor="email" className='text-xl sm:text-2xl'>
-                Email
-              </label>
-              <input
-                style={inputStyle}
-                type="email"
-                id="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-              />
-
-              <label style={labelStyle} htmlFor="message" className='text-xl sm:text-2xl'>
-                Message
-              </label>
-              <textarea
-                style={inputStyle}
-                id="message"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-                required
-              ></textarea>
-
-              <button style={{ ...buttonStyle, ...buttonHoverStyle }} type="submit" className='text-3xl font-bold'>
-                Submit
-              </button>
-            </form>
-          </div>
-    
         </div>
   )
 }
