@@ -15,35 +15,45 @@ const NavBar = () => {
     <div className='w-full py-3 sm:py-3 md:py-3 lg:py-6 xl:py-6 flex justify-between items-center absolute bg-gradient-to-r
     from-cyan-500 to-pink-500'>
         <ul className='hidden px-4 sm:flex'>
-           <li className='pr-4 text-pink-500 font-bold glowing-link lg:text-3xl xl:text-4xl lg:pr-8 xl:pr-8'>
+           <li className='pr-4 text-pink-500 font-bold glowing-link sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl lg:pr-8 xl:pr-8'>
                 <Link to='/' >Home</Link>
            </li>
-           <li className='pr-4 text-orange-500 font-bold glowing-link lg:text-3xl xl:text-4xl lg:pr-8 xl:pr-8'>
+           <li className='pr-4 text-orange-500 font-bold glowing-link sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl lg:pr-8 xl:pr-8'>
               <Link to='/about' >About Us</Link>
            </li>
-           <li className='pr-4 text-red-500 font-bold glowing-link lg:text-3xl xl:text-4xl lg:pr-8 xl:pr-8'>
+           <li className='pr-4 text-red-500 font-bold glowing-link sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl lg:pr-8 xl:pr-8'>
               <Link to="/contact">Contact Us</Link>
            </li>
         </ul>  
         <div className='flex justify-between'>
-        <FaInstagram className='mx-6 lg:text-4xl xl:text-4xl' 
-        style={{
-            color: '#e4405f', // Instagram pink
-            animation: 'glowing 1.5s infinite',
-            filter: 'drop-shadow(0 0 5px rgba(228, 64, 95, 0.4))' // Adjusted color and opacity
-          }} />
-         <FaTwitter className='mx-6 lg:text-4xl xl:text-4xl'
-          style={{
-            color: '#1da1f2', // Twitter blue
-            animation: 'glowing 1.5s infinite',
-            filter: 'drop-shadow(0 0 5px rgba(29, 161, 242, 0.4))' // Adjusted color and opacity
-          }}/>
-          <FaFacebookF className='mx-6 lg:text-4xl xl:text-4xl'
-          style={{
-            color: '#1877f2', // Facebook blue
-            animation: 'glowing 1.5s infinite',
-            filter: 'drop-shadow(0 0 5px rgba(24, 119, 242, 0.4))' // Adjusted color and opacity
-          }}/>
+
+          <Link to='https://www.instagram.com/happyfacevent/' >
+            <FaInstagram className='mx-6 sm:text-xl md:text-2xl lg:text-4xl xl:text-4xl' 
+              style={{
+                  color: '#e4405f', // Instagram pink
+                  animation: 'glowing 1.5s infinite',
+                  filter: 'drop-shadow(0 0 5px rgba(228, 64, 95, 0.4))' // Adjusted color and opacity
+            }} />
+          </Link>
+
+          <Link to='https://twitter.com/FaceKiddie34709' >
+            <FaTwitter className='mx-6 sm:text-xl md:text-2xl lg:text-4xl xl:text-4xl'
+              style={{
+                color: '#1da1f2', // Twitter blue
+                animation: 'glowing 1.5s infinite',
+                filter: 'drop-shadow(0 0 5px rgba(29, 161, 242, 0.4))' // Adjusted color and opacity
+            }}/>
+          </Link>
+
+          <Link to="https://web.facebook.com/profile.php?id=61550869857214">
+            <FaFacebookF className='mx-6 sm:text-xl md:text-2xl lg:text-4xl xl:text-4xl'
+              style={{
+                color: '#1877f2', // Facebook blue
+                animation: 'glowing 1.5s infinite',
+                filter: 'drop-shadow(0 0 5px rgba(24, 119, 242, 0.4))' // Adjusted color and opacity
+            }}/>
+          </Link>
+          
 
 
         </div>

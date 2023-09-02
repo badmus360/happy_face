@@ -59,99 +59,6 @@ const slides = {
     ]
 }
 
-
-
-// const slides1 = [
-//       {
-//         src: image1A,
-//       },
-//       {
-//         src: image1B,
-//       },
-//       {
-//         src: image1C,
-//       },
-//       {
-//         src: image1D,
-//       },
-//     ]
-
-//     const slides2 = [
-//       {
-//         src: image2A,
-//       },
-//       {
-//         src: image2B,
-//       },
-//       {
-//         src: image2C,
-//       },
-//       {
-//         src: image2D,
-//       },
-//     ]
-
-//     const slides3 = [
-//       {
-//         src: image3A,
-//       },
-//       {
-//         src: image3B,
-//       },
-//       {
-//         src: image3C,
-//       },
-//       {
-//         src: image3D,
-//       },
-//     ]
-
-//     const slides4 = [
-//       {
-//         src: image4A,
-//       },
-//       {
-//         src: image4B,
-//       },
-//       {
-//         src: image4C,
-//       },
-//       {
-//         src: image4D,
-//       },
-//       {
-//         src: image4E,
-//       },
-//     ]
-
-//     const slides5 = [
-//       {
-//         src: image5A,
-//       },
-//       {
-//         src: image5B,
-//       },
-//       {
-//         src: image5C,
-//       },
-//       {
-//         src: image5D,
-//       },
-//     ]
-
-    // const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-    // useEffect(() => {
-    //   // Automatically change image index every 3 seconds
-    //   const interval = setInterval(() => {
-    //     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % slides1.length);
-    //   }, 3000); // Change image every 3 seconds
-  
-    //   return () => {
-    //     clearInterval(interval); // Clear interval on component unmount
-    //   };
-    // }, []);
-
     const SlideShow = ({ images }) => {
       const [currentImageIndex, setCurrentImageIndex] = useState(0);
     
@@ -257,6 +164,123 @@ export default AboutTop
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const slides1 = [
+//       {
+//         src: image1A,
+//       },
+//       {
+//         src: image1B,
+//       },
+//       {
+//         src: image1C,
+//       },
+//       {
+//         src: image1D,
+//       },
+//     ]
+
+//     const slides2 = [
+//       {
+//         src: image2A,
+//       },
+//       {
+//         src: image2B,
+//       },
+//       {
+//         src: image2C,
+//       },
+//       {
+//         src: image2D,
+//       },
+//     ]
+
+//     const slides3 = [
+//       {
+//         src: image3A,
+//       },
+//       {
+//         src: image3B,
+//       },
+//       {
+//         src: image3C,
+//       },
+//       {
+//         src: image3D,
+//       },
+//     ]
+
+//     const slides4 = [
+//       {
+//         src: image4A,
+//       },
+//       {
+//         src: image4B,
+//       },
+//       {
+//         src: image4C,
+//       },
+//       {
+//         src: image4D,
+//       },
+//       {
+//         src: image4E,
+//       },
+//     ]
+
+//     const slides5 = [
+//       {
+//         src: image5A,
+//       },
+//       {
+//         src: image5B,
+//       },
+//       {
+//         src: image5C,
+//       },
+//       {
+//         src: image5D,
+//       },
+//     ]
+
+    // const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    // useEffect(() => {
+    //   // Automatically change image index every 3 seconds
+    //   const interval = setInterval(() => {
+    //     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % slides1.length);
+    //   }, 3000); // Change image every 3 seconds
+  
+    //   return () => {
+    //     clearInterval(interval); // Clear interval on component unmount
+    //   };
+    // }, []);
 
 
 

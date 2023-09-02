@@ -45,9 +45,13 @@ const TopBar = () => {
       </div>
       
       <div className='flex items-center justify-center sm:justify-end mt-2 sm:mt-0'>
-        <button className='bg-gradient-to-r from-pink-500 to-red-600 rounded-full pr-5 pl-4 text-white flex items-center pt-1 pb-1 glowing-button lg:text-3xl xl:text-4xl'>
-          Subscribe <IoLogoYoutube className='ml-3 ' />
-        </button>
+        <a href="https://www.youtube.com/channel/UC7B19cN9BjVdt2bTWQlcEYw">
+          <button
+            className='bg-gradient-to-r from-pink-500 to-red-600 rounded-full pr-5 pl-4 text-white flex items-center pt-1 pb-1 glowing-button lg:text-3xl xl:text-4xl'>
+            Subscribe 
+            <IoLogoYoutube className='ml-3 ' />
+          </button>
+        </a>
       </div>
     </div>
   )

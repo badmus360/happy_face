@@ -352,11 +352,11 @@ const Activities = () => {
     <div className='bg-gradient-to-r from-green-200 to-purple-200 w-full min-h-screen p-10 sm:p-10 lg:p-10 md:p-10 xl:10 flex flex-col items-center justify-center relative'>
 
       <div className='relative z-10'>
-        <h1 className='text-[40px] lg:text-[50px] xl:text-[60px] mb-5 text-white text-center font-bold'><span className='text-green-600 '>Explore</span> <span className='text-pink-600'>Funtertainment</span> <span className='text-orange-600'>with</span> <span className='text-red-600'>US!!!</span></h1>
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 xl:gap-8 justify-center'>
+        <h1 className='text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[80px] mb-5 text-white text-center font-bold'><span className='text-green-600 '>Explore</span> <span className='text-pink-600'>Funtertainment</span> <span className='text-orange-600'>with</span> <span className='text-red-600'>US!!!</span></h1>
+        <div className='grid sm:grid md:grid lg:grid-cols-2 xl:grid-cols-2 gap-8 xl:gap-8 justify-center'>
 
-          <div  className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] lg:w-[280px] lg:h-[440px] xl:w-[330px] xl:h-[500px] relative shadow-2xl bg-red-300 rounded-xl'>
-            <div className='h-32 lg:h-[185px] xl:h-[230px] w-full relative overflow-hidden group'>
+          <div  className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-red-300 rounded-xl'>
+            <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px]  relative overflow-hidden group'>
               <div
                   style={{
                     backgroundImage: `url(${slides1[currentIndex].src})`,
@@ -377,13 +377,13 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-xl font-semibold mb-2 text-center lg:text-[30px] xl:text-[30px]'>Fun City</h2>
-              <p className='text-white lg:text-[19px] xl:text-[25px]'>Get ready for a thrilling adventure with Fun City Bounce, where imagination knows no bounds and excitement bounces to new heights!</p>
+              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Fun City</h2>
+              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>Get ready for a thrilling adventure with Fun City Bounce, where imagination knows no bounds and excitement bounces to new heights!</p>
             </div>
           </div>
 
-          <div  className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] lg:w-[280px] lg:h-[440px] xl:w-[330px] xl:h-[500px] relative shadow-2xl bg-yellow-300 rounded-xl'>
-            <div className='h-32 lg:h-[185px] xl:h-[230px] w-full relative overflow-hidden group'>
+          <div  className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-yellow-300 rounded-xl'>
+            <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
                     backgroundImage: `url(${slides2[currentIndex2].src})`,
@@ -404,13 +404,13 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-xl font-semibold mb-2 text-center lg:text-[30px] xl:text-[30px]'>Cimbing Wall</h2>
-              <p className='text-white lg:text-[19px] xl:text-[25px]'>There's a bouncy climbing wall that's ready for anyone to try, no matter how big or small they are...</p>
+              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Cimbing Wall</h2>
+              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>There's a bouncy climbing wall that's ready for anyone to try, no matter how big or small they are...</p>
             </div>
           </div>
 
-          <div className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] lg:w-[280px] lg:h-[440px] xl:w-[330px] xl:h-[500px] relative shadow-2xl bg-green-300 rounded-xl'>
-            <div className='h-32 lg:h-[185px] xl:h-[230px] w-full relative overflow-hidden group'>
+          <div className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-green-300 rounded-xl'>
+            <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
                     backgroundImage: `url(${slides3[currentIndex3].src})`,
@@ -431,14 +431,14 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-xl font-semibold mb-2 text-center lg:text-[30px] xl:text-[30px]'>Bouncing Slide</h2>
-              <p className='text-white lg:text-[19px] xl:text-[25px]'>Imagine stepping into a magical world where you can defy gravity and bounce like never before. Get ready to explore the amazing world of bouncing slides!</p>
+              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Bouncing Slide</h2>
+              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>Imagine stepping into a magical world where you can defy gravity and bounce like never before. Get ready to explore the amazing world of bouncing slides!</p>
             </div>
           </div>
 
 
-          <div className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] lg:w-[280px] lg:h-[440px] xl:w-[330px] xl:h-[550px] relative shadow-2xl bg-blue-300 rounded-xl'>
-            <div className='h-32 lg:h-[185px] xl:h-[230px] w-full relative overflow-hidden group'>
+          <div className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-blue-300 rounded-xl'>
+            <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
                     backgroundImage: `url(${slides4[currentIndex4].src})`,
@@ -459,14 +459,14 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-xl font-semibold mb-2 text-center lg:text-[30px] xl:text-[30px]'>Bouncing Castle</h2>
-              <p className='text-white lg:text-[19px] xl:text-[25px]'>Imagine a place where you can jump, bounce, and let your energy run wild. It's time to enter the magical realm of the bouncing castle!</p>
+              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Bouncing Castle</h2>
+              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>Imagine a place where you can jump, bounce, and let your energy run wild. It's time to enter the magical realm of the bouncing castle!</p>
             </div>
           </div>
 
 
-          <div className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] lg:w-[280px] lg:h-[440px] xl:w-[330px] xl:h-[550px] relative shadow-2xl bg-indigo-300 rounded-xl'>
-            <div className='h-32 lg:h-[185px] xl:h-[230px] w-full relative overflow-hidden group'>
+          <div className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-indigo-300 rounded-xl'>
+            <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
                     backgroundImage: `url(${slides5[currentIndex5].src})`,
@@ -487,14 +487,14 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-xl font-semibold mb-2 text-center lg:text-[30px] xl:text-[30px]'>Trampoline</h2>
-              <p className='text-white lg:text-[19px] xl:text-[25px]'>Imagine a magical surface that lets you bounce higher than you ever thought possible it's time to discover the incredible world of the trampoline!</p>
+              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Trampoline</h2>
+              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>Imagine a magical surface that lets you bounce higher than you ever thought possible it's time to discover the incredible world of the trampoline!</p>
             </div>
           </div>
 
 
-          <div className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] lg:w-[280px] lg:h-[440px] xl:w-[330px] xl:h-[550px] relative shadow-2xl bg-purple-300 rounded-xl'>
-            <div className='h-32 lg:h-[185px] xl:h-[230px] w-full relative overflow-hidden group'>
+          <div className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-purple-300 rounded-xl'>
+            <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
                     backgroundImage: `url(${slides6[currentIndex6].src})`,
@@ -515,14 +515,14 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-xl font-semibold mb-2 text-center lg:text-[30px] xl:text-[30px]'>Train Ride</h2>
-              <p className='text-white lg:text-[19px] xl:text-[25px]'>Get ready to embark on a train adventure that's as enchanting as a journey through storybook lands!</p>
+              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Train Ride</h2>
+              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>Get ready to embark on a train adventure that's as enchanting as a journey through storybook lands!</p>
             </div>
           </div>
 
 
-          <div className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] lg:w-[280px] lg:h-[440px] xl:w-[330px] xl:h-[550px] relative shadow-2xl bg-orange-300 rounded-xl'>
-            <div className='h-32 lg:h-[185px] xl:h-[230px] w-full relative overflow-hidden group'>
+          <div className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-orange-300 rounded-xl'>
+            <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
                     backgroundImage: `url(${slides7[currentIndex7].src})`,
@@ -543,14 +543,14 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-xl font-semibold mb-2 text-center lg:text-[30px] xl:text-[30px]'>Costumes</h2>
-              <p className='text-white lg:text-[19px] xl:text-[25px]'>Have you ever seen magical outfits that can transport you to different fairy tales just by seeing them on!</p>
+              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Costumes</h2>
+              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>Have you ever seen magical outfits that can transport you to different fairy tales just by seeing them on!</p>
             </div>
           </div>
 
 
-          <div className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] lg:w-[280px] lg:h-[440px] xl:w-[330px] xl:h-[550px] relative shadow-2xl bg-pink-300 rounded-xl'>
-            <div className='h-32 lg:h-[185px] xl:h-[230px] w-full relative overflow-hidden group'>
+          <div className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-pink-300 rounded-xl'>
+            <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
                     backgroundImage: `url(${slides8[currentIndex8].src})`,
@@ -571,14 +571,14 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-xl font-semibold mb-2 text-center lg:text-[30px] xl:text-[30px]'>Decorations</h2>
-              <p className='text-white lg:text-[19px] xl:text-[25px]'>Are you ready to make your special occasions shine brighter than ever? We would show you our incredible party decorations that will turn your celebrations into unforgettable moments of joy and magic...</p>
+              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Decorations</h2>
+              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>Are you ready to make your special occasions shine brighter than ever? We would show you our incredible party decorations that will turn your celebrations into unforgettable moments of joy and magic...</p>
             </div>
           </div>
 
 
-          <div className='p-6 w-[222px] h-[365px] sm:w-[222px] sm:h-[365px] md:w-[222px] md:h-[365px] lg:w-[280px] lg:h-[440px] xl:w-[330px] xl:h-[550px] relative shadow-2xl bg-violet-300 rounded-xl'>
-            <div className='h-32 lg:h-[185px] xl:h-[230px] w-full relative overflow-hidden group'>
+          <div className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-violet-300 rounded-xl'>
+            <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
                     backgroundImage: `url(${slides9[currentIndex9].src})`,
@@ -599,8 +599,8 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-xl font-semibold mb-2 text-center lg:text-[30px] xl:text-[30px]'>Other Fun Stuff</h2>
-              <p className='text-white lg:text-[19px] xl:text-[25px]'> Get set for the most incredible adventure with "Fun Stuff"! Picture a world where excitement never ends, where you can dive into a sea of laughter, games, and amazing activities!</p>
+              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Other Fun Stuff</h2>
+              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'> Get set for the most incredible adventure with "Fun Stuff"! Picture a world where excitement never ends, where you can dive into a sea of laughter, games, and amazing activities!</p>
             </div>
           </div>
 
