@@ -79,7 +79,7 @@ const slides = {
             src={images[currentImageIndex]}
             className='w-full h-full rounded-lg transition-transform transform group-hover:scale-105'
           />
-          <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
+          <div className='absolute top-0 left-0 w-full h-full'></div>
         </div>
       );
     };
@@ -87,7 +87,7 @@ const slides = {
 
   return (
        <div className='w-full bg-gradient-to-r from-green-200 to-purple-200 min-h-screen px-10 sm:px-10 pb-10 sm:pb-10 lg:pb-10 md:pb-10 lg:px-10 md:px-10 flex flex-col items-center justify-center relative '>   
-          <div className='text-center text-4xl sm:text-5xl mb-4 font-bold mt-6 xl:mb-6 xl:mt-8 lg:text-[50px] xl:text-[70px]'><span className='text-red-500'>Who we are</span> <span className='text-yellow-500'>and</span> <span className='text-green-500'>what we do</span><span className='text-purple-500'>...</span></div>
+          <div className='text-center text-[46px] sm:text-5xl mb-4 font-bold mt-6 xl:mb-6 xl:mt-8 lg:text-[50px] xl:text-[70px]'><span className='text-red-500'>Who we are</span> <span className='text-yellow-500'>and</span> <span className='text-green-500'>what we do</span><span className='text-purple-500'>...</span></div>
               <div className='grid gap-10 sm:grid md:grid lg:grid justify-center group'>
 
                   <div className='bg-black w-[400px] h-[690px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 pb-3 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
@@ -99,10 +99,10 @@ const slides = {
                       </div>
                   </div>
   
-                 <div className='bg-black w-[400px] h-[690px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 b-5 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
-                      <aside class="bg-green-300 h-[300px] mt-1 sm:mt-0 md:mt-0 sm:mr-2 md:mr-4 rounded-lg p-2">
-                              <span className='text-2xl font-bold lg:text-[38px] xl:text-[45px]'>...we are party shakers</span>
-                              <p className='text-xl sm:text-lg lg:text-3xl xl:text-4xl'>we've got a secret ingredient to make your parties shake with excitement! Imagine us as the musical magicians who bring the beats and rhythms that make your feet tap, your hips sway, and your heart dance. We're the ones with the coolest DJ music that's like a sprinkle of magic dust over your party</p>
+                 <div className='bg-black w-[400px] h-[690px] gap-1 sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 b-5 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
+                      <aside class="bg-green-300 h-[300px] mt-0 sm:mt-0 md:mt-0 sm:mr-2 md:mr-4 rounded-lg p-2">
+                              <span className='text-[30px] text-red-600 font-bold lg:text-[38px] xl:text-[45px]'>...we are party shakers</span>
+                              <p className='text-[22px] font-semibold sm:text-lg lg:text-3xl xl:text-4xl'>we've got a secret ingredient to make your parties shake with excitement! Imagine us as the musical magicians who bring the beats and rhythms that make your feet tap, your hips sway, and your heart dance. We're the ones with the coolest DJ music that's like a sprinkle of magic dust over your party</p>
                       </aside>
 
                       <SlideShow images={slides.slides2} />
@@ -117,10 +117,10 @@ const slides = {
                       </aside>
                   </div>
   
-                  <div className='bg-black w-[400px] h-[690px] sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
-                      <aside class="bg-pink-300 h-full mt-1 sm:mt-0 md:mt-0 sm:mr-2 md:mr-4 rounded-lg p-2">
-                              <span className='text-2xl font-bold lg:text-[38px] xl:text-[45px]'>...we sell</span>
-                              <p className='text-xl sm:text-lg lg:text-3xl xl:text-4xl'>Are you ready to take a piece of an amusement park magic? "bringing the thrill of the amusement park right to you Imagine this: you're riding the happiest roller coasters, playing the most exciting games. Now, what if we told you that you can keep that excitement alive even after you've left the park.</p>
+                  <div className='bg-black w-[400px] h-[690px] gap-1 sm:w-[600px] sm:h-[280px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid-cols-2 md:grid-cols-2 bg-opacity-30 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
+                      <aside class="bg-pink-300 h-[300px] sm:mt-0 md:mt-0 sm:mr-2 md:mr-4 rounded-lg p-2">
+                              <span className='text-[30px] text-red-600 font-bold lg:text-[38px] xl:text-[45px]'>...we sell</span>
+                              <p className='text-[22px] font-semibold sm:text-lg lg:text-3xl xl:text-4xl'>Are you ready to take a piece of an amusement park magic? "bringing the thrill of the amusement park right to you Imagine this: you're riding the happiest roller coasters, playing the most exciting games. Now, what if we told you that you can keep that excitement alive even after you've left the park.</p>
                       </aside>
 
                       <SlideShow images={slides.slides4} />
@@ -141,210 +141,3 @@ const slides = {
 }
 
 export default AboutTop
-
-
-
-
-
-
-   
-
-
-               {/* <div className='relative h-full overflow-hidden group md:col-span-1'>
-                      <img
-                        src={images[currentImageIndex]}
-                        className='w-full h-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce'
-                      />
-                          <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
-                      </div> */}
-
-
-
-                   {/* <div className='relative mt-[9px] sm:mt-0 md:mt-0 lg:mt-0 h-full overflow-hidden group md:col-span-1'>
-                          <img src={image2A} className='w-full h-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
-                          <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
-                      </div> */}
-
-
-                      {/* <div className='relative h-full overflow-hidden group md:col-span-1'>
-                          <img src={image2A} className='w-full h-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
-                          <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
-                      </div> */}
-
-
-                      {/* <div className='relative mt-[3px] sm:mt-0 md:mt-0 lg:mt-0 h-full overflow-hidden group md:col-span-1'>
-                          <img src={image2A} className='w-full h-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
-                          <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
-                      </div> */}
-
-
-                      {/* <div className='relative h-full overflow-hidden group md:col-span-1'>
-                          <img src={image2A} className='w-full h-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce' />
-                          <div className='absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-40 transition-opacity'></div>
-                      </div> */}
-
-
-// const slides1 = [
-//       {
-//         src: image1A,
-//       },
-//       {
-//         src: image1B,
-//       },
-//       {
-//         src: image1C,
-//       },
-//       {
-//         src: image1D,
-//       },
-//     ]
-
-//     const slides2 = [
-//       {
-//         src: image2A,
-//       },
-//       {
-//         src: image2B,
-//       },
-//       {
-//         src: image2C,
-//       },
-//       {
-//         src: image2D,
-//       },
-//     ]
-
-//     const slides3 = [
-//       {
-//         src: image3A,
-//       },
-//       {
-//         src: image3B,
-//       },
-//       {
-//         src: image3C,
-//       },
-//       {
-//         src: image3D,
-//       },
-//     ]
-
-//     const slides4 = [
-//       {
-//         src: image4A,
-//       },
-//       {
-//         src: image4B,
-//       },
-//       {
-//         src: image4C,
-//       },
-//       {
-//         src: image4D,
-//       },
-//       {
-//         src: image4E,
-//       },
-//     ]
-
-//     const slides5 = [
-//       {
-//         src: image5A,
-//       },
-//       {
-//         src: image5B,
-//       },
-//       {
-//         src: image5C,
-//       },
-//       {
-//         src: image5D,
-//       },
-//     ]
-
-    // const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-    // useEffect(() => {
-    //   // Automatically change image index every 3 seconds
-    //   const interval = setInterval(() => {
-    //     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % slides1.length);
-    //   }, 3000); // Change image every 3 seconds
-  
-    //   return () => {
-    //     clearInterval(interval); // Clear interval on component unmount
-    //   };
-    // }, []);
-
-
-    // const [currentIndex1, setCurrentIndex1] = useState(0);
-    // const [currentIndex2, setCurrentIndex2] = useState(0);
-    // const [currentIndex3, setCurrentIndex3] = useState(0);
-    // const [currentIndex4, setCurrentIndex4] = useState(0);
-    // const [currentIndex5, setCurrentIndex5] = useState(0);
-
-    // const prevSlide1 = () => {
-    //   const isFirstSlide = currentIndex === 0;
-    //   const newIndex = isFirstSlide ? slides1.length - 1 : currentIndex1 - 1;
-    //   setCurrentIndex(newIndex);
-    // };
-    // const nextSlide1 = () => {
-    //   const isLastSlide = currentIndex1 === slides1.length - 1;
-    //   const newIndex = isLastSlide ? 0 : currentIndex1 + 1;
-    //   setCurrentIndex1(newIndex);
-    // };
-  
-    // const prevSlide2 = () => {
-    //   const isFirstSlide = currentIndex2 === 0;
-    //   const newIndex = isFirstSlide ? slides2.length - 1 : currentIndex2 - 1;
-    //   setCurrentIndex2(newIndex);
-    // };
-    // const nextSlide2 = () => {
-    //   const isLastSlide = currentIndex2 === slides2.length - 1;
-    //   const newIndex = isLastSlide ? 0 : currentIndex2 + 1;
-    //   setCurrentIndex2(newIndex);
-    // };
-  
-    // const prevSlide3 = () => {
-    //   const isFirstSlide = currentIndex3 === 0;
-    //   const newIndex = isFirstSlide ? slides3.length - 1 : currentIndex3 - 1;
-    //   setCurrentIndex3(newIndex);
-    // };
-    // const nextSlide3 = () => {
-    //   const isLastSlide = currentIndex3 === slides3.length - 1;
-    //   const newIndex = isLastSlide ? 0 : currentIndex3 + 1;
-    //   setCurrentIndex3(newIndex);
-    // };
-  
-    // const prevSlide4 = () => {
-    //   const isFirstSlide = currentIndex4 === 0;
-    //   const newIndex = isFirstSlide ? slides4.length - 1 : currentIndex4 - 1;
-    //   setCurrentIndex4(newIndex);
-    // };
-    // const nextSlide4 = () => {
-    //   const isLastSlide = currentIndex4 === slides4.length - 1;
-    //   const newIndex = isLastSlide ? 0 : currentIndex4 + 1;
-    //   setCurrentIndex4(newIndex);
-    // };
-  
-    // const prevSlide5 = () => {
-    //   const isFirstSlide = currentIndex5 === 0;
-    //   const newIndex = isFirstSlide ? slides5.length - 1 : currentIndex5 - 1;
-    //   setCurrentIndex5(newIndex);
-    // };
-    // const nextSlide5 = () => {
-    //   const isLastSlide = currentIndex5 === slides5.length - 1;
-    //   const newIndex = isLastSlide ? 0 : currentIndex5 + 1;
-    //   setCurrentIndex5(newIndex);
-    // };
-
-
-     {/* <div
-                            style={{
-                            backgroundImage: `url(${slides1[currentIndex1].src})`,
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center',
-                            width: '100%',
-                            height: '100%',
-                            transition: 'background-image 0.5s',
-                          }} className='w-full rounded-lg transition-transform transform group-hover:scale-105 hover:animate-bounce'
-                          ></div>  */}
