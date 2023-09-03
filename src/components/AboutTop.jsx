@@ -74,7 +74,7 @@ const slides = {
 
 
       return (
-        <div className='relative h-[370px] sm:h-[390px]  overflow-hidden'>
+        <div className='relative h-[370px] sm:h-[390px] md:h-[410px]  overflow-hidden'>
           <img
             src={images[currentImageIndex]}
             className='w-full h-full rounded-lg transition-transform transform group-hover:scale-105'
@@ -90,12 +90,12 @@ const slides = {
           <div className='text-center text-[46px] sm:text-[65px] mb-4 font-bold mt-6 xl:mb-6 xl:mt-8 lg:text-[50px] xl:text-[70px]'><span className='text-red-500'>Who we are</span> <span className='text-yellow-500'>and</span> <span className='text-green-500'>what we do</span><span className='text-purple-500'>...</span></div>
               <div className='grid gap-10 sm:grid md:grid lg:grid justify-center group'>
 
-                  <div className='bg-black sm:gap-2 w-[400px] h-[690px] sm:w-[600px] sm:h-[900px] md:w-[700px] md:h-[290px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid md:grid-cols-2 bg-opacity-30 pb-3 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
+                  <div className='bg-black sm:gap-2 md:gap-3 w-[400px] h-[690px] sm:w-[600px] sm:h-[900px] md:w-[730px] md:h-[1000px] lg:w-[915px] lg:h-[400px] xl:w-[1150px] xl:h-[500px] grid sm:grid md:grid bg-opacity-30 pb-3 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
     
                       <SlideShow images={slides.slides1} />
-                      <div class="bg-blue-300 h-[300px] sm:h-[470px] mt-1 sm:mt-0 md:mt-0 md:ml-4 rounded-lg p-2">
-                              <span className='text-[30px] text-red-600 font-bold sm:text-[50px] lg:text-[38px] xl:text-[45px]'>...we are funstatic planners</span>
-                              <p className='text-[22px] font-semibold sm:text-[36px] lg:text-3xl xl:text-4xl'> we're here to make sure you have the most amazing time ever! Imagine us as your magical party helpers, like the wizards of fun! We're the ones who sprinkle joy, laughter, and excitement into special events. From cool games to awesome decorations, we're like your very own team of party experts!</p>
+                      <div class="bg-blue-300 h-[300px] sm:h-[470px] md:h-[530px] mt-1 sm:mt-0 md:mt-0 rounded-lg p-2">
+                              <span className='text-[30px] text-red-600 font-bold sm:text-[50px] md:text-[70px] lg:text-[38px] xl:text-[45px]'>...we are funstatic planners</span>
+                              <p className='text-[22px] font-semibold sm:text-[36px] md:text-[42px] lg:text-3xl xl:text-4xl'> we're here to make sure you have the most amazing time ever! Imagine us as your magical party helpers, like the wizards of fun! We're the ones who sprinkle joy, laughter, and excitement into special events. From cool games to awesome decorations, we're like your very own team of party experts!</p>
                       </div>
                   </div>
   
