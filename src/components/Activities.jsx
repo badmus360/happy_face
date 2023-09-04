@@ -355,7 +355,7 @@ const Activities = () => {
         <h1 className='text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[80px] mb-5 text-white text-center font-bold'><span className='text-green-600 '>Explore</span> <span className='text-pink-600'>Funtertainment</span> <span className='text-orange-600'>with</span> <span className='text-red-600'>US!!!</span></h1>
         <div className='grid sm:grid md:grid lg:grid-cols-2 xl:grid-cols-2 gap-8 xl:gap-8 justify-center'>
 
-          <div  className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-red-300 rounded-xl'>
+          <div  className='p-6 w-[320px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-red-300 rounded-xl'>
             <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px]  relative overflow-hidden group'>
               <div
                   style={{
@@ -382,7 +382,7 @@ const Activities = () => {
             </div>
           </div>
 
-          <div  className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-yellow-300 rounded-xl'>
+          <div  className='p-6 w-[320px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-yellow-300 rounded-xl'>
             <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
@@ -409,7 +409,7 @@ const Activities = () => {
             </div>
           </div>
 
-          <div className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-green-300 rounded-xl'>
+          <div className='p-6 w-[320px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-green-300 rounded-xl'>
             <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
@@ -437,7 +437,7 @@ const Activities = () => {
           </div>
 
 
-          <div className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-blue-300 rounded-xl'>
+          <div className='p-6 w-[320px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-blue-300 rounded-xl'>
             <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
@@ -465,7 +465,7 @@ const Activities = () => {
           </div>
 
 
-          <div className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-indigo-300 rounded-xl'>
+          <div className='p-6 w-[320px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-indigo-300 rounded-xl'>
             <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
@@ -493,7 +493,7 @@ const Activities = () => {
           </div>
 
 
-          <div className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-purple-300 rounded-xl'>
+          <div className='p-6 w-[320px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-purple-300 rounded-xl'>
             <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
@@ -521,7 +521,7 @@ const Activities = () => {
           </div>
 
 
-          <div className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-orange-300 rounded-xl'>
+          <div className='p-6 w-[320px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-orange-300 rounded-xl'>
             <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
@@ -549,7 +549,7 @@ const Activities = () => {
           </div>
 
 
-          <div className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-pink-300 rounded-xl'>
+          <div className='p-6 w-[320px] h-[540px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-pink-300 rounded-xl'>
             <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
@@ -577,7 +577,7 @@ const Activities = () => {
           </div>
 
 
-          <div className='p-6 w-[400px] h-[500px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-violet-300 rounded-xl'>
+          <div className='p-6 w-[320px] h-[550px] sm:w-[500px] sm:h-[600px] md:w-[600px] md:h-[700px] lg:w-[450px] lg:h-[600px] xl:w-[600px] xl:h-[800px] lg:mx-[10px] relative shadow-2xl bg-violet-300 rounded-xl'>
             <div className='h-[200px] w-full sm:h-[250px] md:h-[350px] lg:h-[230px] xl:h-[350px] relative overflow-hidden group'>
               <div
                   style={{
