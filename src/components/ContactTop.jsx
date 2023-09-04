@@ -78,7 +78,7 @@ const ContactTop = () => {
               </div>
               <div className='xl:pt-0'>
               <h1 className='text-blue-500 font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-5xl'>Mail Address</h1>
-              <p className='text-blue-800 lg:text-3xl text-2xl sm:text-2xl md:text-2xl xl:text-4xl'>adveland@ademolink.org</p>
+              <p className='text-blue-800 lg:text-3xl text-2xl sm:text-2xl md:text-2xl xl:text-4xl'>happyfacevents@gmail.org</p>
               </div>
             </div>
 
@@ -88,7 +88,7 @@ const ContactTop = () => {
               </div>
               <div className='xl:pt-0'>
               <h1 className='text-red-500 font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-5xl'>Customer Service</h1>
-              <p className='text-red-800 lg:text-3xl text-2xl sm:text-2xl md:text-2xl xl:text-4xl'>0817 187 2043, 0817 187 2043</p>
+              <p className='text-red-800 lg:text-3xl text-2xl sm:text-2xl md:text-2xl xl:text-4xl'>0701 701 1218, 0817 187 2043</p>
               </div>
             </div>
 
@@ -109,7 +109,7 @@ const ContactTop = () => {
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   required
-                  className='w-[350px] h-[50px] sm:w-[450px] sm:h-[60px] md:w-[600px] md:h-[60px] text-xl sm:text-2xl xl:w-[640px] xl:h-[70px] xl:text-5xl'
+                  className='w-[300px] h-[50px] sm:w-[450px] sm:h-[60px] md:w-[600px] md:h-[60px] text-xl sm:text-2xl xl:w-[640px] xl:h-[70px] xl:text-5xl'
                 />
 
                 <label style={labelStyle} htmlFor="email" className='text-3xl sm:text-2xl'>
@@ -122,7 +122,7 @@ const ContactTop = () => {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  className='w-[350px] h-[50px] sm:w-[450px] sm:h-[60px] md:w-[600px] md:h-[60px] text-xl sm:text-2xl xl:w-[640px] xl:h-[70px] xl:text-5xl'
+                  className='w-[300px] h-[50px] sm:w-[450px] sm:h-[60px] md:w-[600px] md:h-[60px] text-xl sm:text-2xl xl:w-[640px] xl:h-[70px] xl:text-5xl'
                 />
 
                 <label style={labelStyle} htmlFor="message" className='text-3xl sm:text-2xl'>
@@ -134,7 +134,7 @@ const ContactTop = () => {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   required
-                  className='w-[350px] h-[250px] sm:w-[450px] md:w-[600px] text-xl xl:w-[640px] xl:h-[300px] xl:text-3xl'
+                  className='w-[300px] h-[250px] sm:w-[450px] md:w-[600px] text-xl xl:w-[640px] xl:h-[300px] xl:text-3xl'
                 ></textarea>
 
                 <button style={{ ...buttonStyle, ...buttonHoverStyle }} type="submit" className='text-3xl font-bold mt-5 w-[300px]'>
