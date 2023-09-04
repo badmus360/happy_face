@@ -368,11 +368,11 @@ const Activities = () => {
                   }} className='rounded-lg'
                 ></div>
 
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactLeft onClick={prevSlide} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactLeft onClick={prevSlide} size={20} />
                 </div>
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactRight onClick={nextSlide} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactRight onClick={nextSlide} size={20} />
                 </div>
             </div>
 
@@ -395,11 +395,11 @@ const Activities = () => {
                   }} className='rounded-lg'
                 ></div>
                 
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactLeft onClick={prevSlide2} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactLeft onClick={prevSlide2} size={20} />
                 </div>
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactRight onClick={nextSlide2} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactRight onClick={nextSlide2} size={20} />
                 </div>
             </div>
 
@@ -422,11 +422,11 @@ const Activities = () => {
                   }} className='rounded-lg'
                 ></div>
                 
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactLeft onClick={prevSlide3} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactLeft onClick={prevSlide3} size={20} />
                 </div>
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactRight onClick={nextSlide3} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactRight onClick={nextSlide3} size={20} />
                 </div>
             </div>
 
@@ -450,11 +450,11 @@ const Activities = () => {
                   }} className='rounded-lg'
                 ></div>
                 
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactLeft onClick={prevSlide4} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactLeft onClick={prevSlide4} size={20} />
                 </div>
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactRight onClick={nextSlide4} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactRight onClick={nextSlide4} size={20} />
                 </div>
             </div>
 
@@ -478,11 +478,11 @@ const Activities = () => {
                   }} className='rounded-lg'
                 ></div>
                 
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactLeft onClick={prevSlide5} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactLeft onClick={prevSlide5} size={20} />
                 </div>
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactRight onClick={nextSlide5} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactRight onClick={nextSlide5} size={20} />
                 </div>
             </div>
 
@@ -506,11 +506,11 @@ const Activities = () => {
                   }} className='rounded-lg'
                 ></div>
                 
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactLeft onClick={prevSlide6} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactLeft onClick={prevSlide6} size={20} />
                 </div>
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactRight onClick={nextSlide6} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactRight onClick={nextSlide6} size={20} />
                 </div>
             </div>
 
@@ -534,11 +534,11 @@ const Activities = () => {
                   }} className='rounded-lg'
                 ></div>
                 
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactLeft onClick={prevSlide7} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactLeft onClick={prevSlide7} size={20} />
                 </div>
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactRight onClick={nextSlide7} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactRight onClick={nextSlide7} size={20} />
                 </div>
             </div>
 
@@ -562,11 +562,11 @@ const Activities = () => {
                   }} className='rounded-lg'
                 ></div>
                 
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactLeft onClick={prevSlide8} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactLeft onClick={prevSlide8} size={20} />
                 </div>
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactRight onClick={nextSlide8} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactRight onClick={nextSlide8} size={20} />
                 </div>
             </div>
 
@@ -590,11 +590,11 @@ const Activities = () => {
                   }} className='rounded-lg'
                 ></div>
                 
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactLeft onClick={prevSlide9} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactLeft onClick={prevSlide9} size={20} />
                 </div>
-                <div className='hidden group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                  <BsChevronCompactRight onClick={nextSlide9} size={8} />
+                <div className='group-hover:block absolute top-[50%] z-30 -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/70 text-white cursor-pointer'>
+                  <BsChevronCompactRight onClick={nextSlide9} size={20} />
                 </div>
             </div>
 
