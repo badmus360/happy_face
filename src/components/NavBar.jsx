@@ -93,13 +93,13 @@ const NavBar = () => {
                : 
                'absolute top-0 h-screen left-[-100%] ease-in duration-500'}>
         <ul className='h-full w-full text-center pt-12'>
-           <li className='text-2xl py-8'>
+           <li className='text-[50px] py-8 font-semibold'>
               <Link to='/' className='glowing-link'>Home</Link>
            </li>
-           <li className='text-2xl py-8'>
+           <li className='text-[50px] py-8 font-semibold'>
               <Link to='/about' className='glowing-link'>About Us</Link>
            </li>
-           <li className='text-2xl py-8'>
+           <li className='text-[50px] py-8 font-semibold'>
               <Link to='/contact' className='glowing-link'>Contact Us</Link>
            </li>
         </ul>
