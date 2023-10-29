@@ -1,15 +1,40 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
-import image1 from '../assets/rsz_img_1951.jpg'
 import image2 from '../assets/IMG_1996.jpg'
 import image3 from '../assets/IMG_205.jpg'
 import image4 from '../assets/Img12.jpg'
 import image5 from '../assets/img22.jpg'
 import image6 from '../assets/bny.webp'
+import image7 from '../assets/heret/heret1.jpg'
+import image8 from '../assets/heret/heret2.jpg'
+import image9 from '../assets/heret/heret3.jpg'
+import image10 from '../assets/heret/heret4.jpg'
+import image11 from '../assets/heret/heret5.jpg'
+import image12 from '../assets/heret/heret6.jpg'
+import image13 from '../assets/heret/heret7.jpg'
+
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
 
 const Hero = () => {
   const slides = [
+    {
+      src: image8,
+    },
+    {
+      src: image9,
+    },
+    {
+      src: image10,
+    },
+    {
+      src: image11,
+    },
+    {
+      src: image12,
+    },
+    {
+      src: image13,
+    },
     {
       src: image6,
     },
@@ -20,13 +45,16 @@ const Hero = () => {
       src: image4,
     },
     {
-      src: image1,
-    },
-    {
       src: image3,
     },
     {
       src: image5,
+    },
+    {
+      src: image6,
+    },
+    {
+      src: image7,
     },
   ];
 
