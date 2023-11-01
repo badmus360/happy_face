@@ -67,7 +67,7 @@ const ContactTop = () => {
               <div className='lg:pt-2 xl:pt-4'>
                 <h1 className='text-green-500 font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-5xl'>Office Address</h1>
                 <p className='text-green-800 text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl'>
-                  41, Adeshokan Street, Off Balogun Ilawe Street, Dopemu, Agege, Lagos State, Nigeria
+                  22, Simbiat Abiola Way, Jara Mall, Ikeja, Lagos State, Nigeria
                 </p>
               </div>
             </div>

@@ -377,8 +377,8 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Fun City</h2>
-              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>Get ready for a thrilling adventure with Fun City Bounce, where imagination knows no bounds and excitement bounces to new heights!</p>
+              <h2 className='text-red-600 text-[30px] sm:text-[50px] md:text-[60px] lg:text-[50px] xl:text-[60px] font-bold mb-2 text-center'>Fun City</h2>
+              <p className='text-black font-semibold text-[20px] sm:text-[25px] md:text-[25px] lg:text-[25px] xl:text-[30px]'>Get ready for a thrilling adventure with Fun City Bounce, where imagination knows no bounds and excitement bounces to new heights!</p>
             </div>
           </div>
 
@@ -404,8 +404,8 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Cimbing Wall</h2>
-              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>There's a bouncy climbing wall that's ready for anyone to try, no matter how big or small they are...</p>
+              <h2 className='text-red-600 text-[30px] sm:text-[50px] md:text-[60px] lg:text-[50px] xl:text-[60px] font-bold mb-2 text-center'>Cimbing Wall</h2>
+              <p className='text-black font-semibold text-[20px] sm:text-[25px] md:text-[25px] lg:text-[25px] xl:text-[30px]'>There's a bouncy climbing wall that's ready for anyone to try, no matter how big or small they are...</p>
             </div>
           </div>
 
@@ -431,8 +431,8 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Bouncing Slide</h2>
-              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>Imagine stepping into a magical world where you can defy gravity and bounce like never before. Get ready to explore the amazing world of bouncing slides!</p>
+              <h2 className='text-red-600 text-[30px] sm:text-[50px] md:text-[60px] lg:text-[50px] xl:text-[60px] font-bold mb-2 text-center'>Bouncing Slide</h2>
+              <p className='text-black font-semibold text-[20px] sm:text-[25px] md:text-[25px] lg:text-[25px]  xl:text-[30px]'>Imagine stepping into a magical world where you can defy gravity and bounce like never before. Get ready to explore the amazing world of bouncing slides!</p>
             </div>
           </div>
 
@@ -459,8 +459,8 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Bouncing Castle</h2>
-              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>Imagine a place where you can jump, bounce, and let your energy run wild. It's time to enter the magical realm of the bouncing castle!</p>
+              <h2 className='text-red-600 text-[30px] sm:text-[50px] md:text-[60px] lg:text-[50px] xl:text-[60px] font-bold mb-2 text-center'>Bouncing Castle</h2>
+              <p className='text-black font-semibold text-[20px] sm:text-[25px] md:text-[25px] lg:text-[25px] xl:text-[30px]'>Imagine a place where you can jump, bounce, and let your energy run wild. It's time to enter the magical realm of the bouncing castle!</p>
             </div>
           </div>
 
@@ -487,8 +487,8 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Trampoline</h2>
-              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>Imagine a magical surface that lets you bounce higher than you ever thought possible it's time to discover the incredible world of the trampoline!</p>
+              <h2 className='text-red-600 text-[30px] sm:text-[50px] md:text-[60px] lg:text-[50px] xl:text-[60px] font-bold mb-2 text-center'>Trampoline</h2>
+              <p className='text-black font-semibold text-[20px] sm:text-[25px] md:text-[25px] lg:text-[25px] xl:text-[30px]'>Imagine a magical surface that lets you bounce higher than you ever thought possible it's time to discover the incredible world of the trampoline!</p>
             </div>
           </div>
 
@@ -515,8 +515,8 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Train Ride</h2>
-              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>Get ready to embark on a train adventure that's as enchanting as a journey through storybook lands!</p>
+              <h2 className='text-red-600 text-[30px] sm:text-[50px] md:text-[60px] lg:text-[50px] xl:text-[60px] font-bold mb-2 text-center'>Train Ride</h2>
+              <p className='text-black font-semibold text-[20px] sm:text-[25px] md:text-[25px] lg:text-[25px] xl:text-[30px]'>Get ready to embark on a train adventure that's as enchanting as a journey through storybook lands!</p>
             </div>
           </div>
 
@@ -543,8 +543,8 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Costumes</h2>
-              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>Have you ever seen magical outfits that can transport you to different fairy tales just by seeing them on!</p>
+              <h2 className='text-red-600 text-[30px] sm:text-[50px] md:text-[60px] lg:text-[50px] xl:text-[60px] font-bold mb-2 text-center'>Costumes</h2>
+              <p className='text-black font-semibold text-[20px] sm:text-[25px] md:text-[25px] lg:text-[25px] xl:text-[30px]'>Have you ever seen magical outfits that can transport you to different fairy tales just by seeing them on!</p>
             </div>
           </div>
 
@@ -571,8 +571,8 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Decorations</h2>
-              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'>Are you ready to make your special occasions shine brighter than ever? We would show you our incredible party decorations that will turn your celebrations into unforgettable moments of joy and magic...</p>
+              <h2 className='text-red-600 text-[30px] sm:text-[50px] md:text-[60px] lg:text-[50px] xl:text-[60px] font-bold mb-2 text-center'>Decorations</h2>
+              <p className='text-black font-semibold text-[20px] sm:text-[25px] md:text-[25px] lg:text-[25px] xl:text-[30px]'>Are you ready to make your special occasions shine brighter than ever? We would show you our incredible party decorations that will turn your celebrations into unforgettable moments of joy and magic...</p>
             </div>
           </div>
 
@@ -599,8 +599,8 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-red-600 text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[70px] font-bold mb-2 text-center'>Other Fun Stuff</h2>
-              <p className='text-black font-semibold text-[25px] sm:text-[30px] md:text-[35px] lg:text-[30px] xl:text-[40px]'> Get set for the most incredible adventure with "Fun Stuff"! Picture a world where excitement never ends, where you can dive into a sea of laughter, games, and amazing activities!</p>
+              <h2 className='text-red-600 text-[30px] sm:text-[50px] md:text-[60px] lg:text-[50px] xl:text-[60px] font-bold mb-2 text-center'>Other Fun Stuff</h2>
+              <p className='text-black font-semibold text-[20px] sm:text-[25px] md:text-[25px] lg:text-[25px] xl:text-[30px]'> Get set for the most incredible adventure with "Fun Stuff"! Picture a world where excitement never ends, where you can dive into a sea of laughter, games, and amazing activities!</p>
             </div>
           </div>
 

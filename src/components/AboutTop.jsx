@@ -94,15 +94,15 @@ const slides = {
     
                       <SlideShow images={slides.slides1} />
                       <div class="bg-blue-300 h-[300px] sm:h-[470px] md:h-[530px] lg:h-[400px] mt-1 sm:mt-0 md:mt-0 rounded-lg p-2">
-                              <span className='text-[30px] text-red-600 font-bold sm:text-[50px] md:text-[70px] lg:text-[38px] xl:text-[45px]'>...we are funstatic planners</span>
-                              <p className='text-[22px] font-semibold sm:text-[36px] md:text-[41px] lg:text-3xl xl:text-4xl'> we're here to make sure you have the most amazing time ever! Imagine us as your magical party helpers, like the wizards of fun! We're the ones who sprinkle joy, laughter, and excitement into special events. From cool games to awesome decorations, we're like your very own team of party experts!</p>
+                              <span className='text-[30px] text-red-600 font-bold sm:text-[40px] md:text-[50px] lg:text-[38px] xl:text-[43px]'>...we are funstatic planners</span>
+                              <p className='text-[18px] font-semibold sm:text-[30px] md:text-[35px] lg:text-[25px] xl:text-[28px]'> we're here to make sure you have the most amazing time ever! Imagine us as your magical party helpers, like the wizards of fun! We're the ones who sprinkle joy, laughter, and excitement into special events. From cool games to awesome decorations, we're like your very own team of party experts!</p>
                       </div>
                   </div>
   
                  <div className='bg-black sm:gap-2 md:gap-3 w-[380px] h-[690px] gap-1 sm:w-[600px] sm:h-[900px] md:w-[730px] md:h-[1000px] lg:w-[990px] lg:h-[450px] xl:w-[1150px] xl:h-[460px] grid sm:grid md:grid lg:grid-cols-2 bg-opacity-30 b-5 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
                       <aside class="bg-green-300 h-[300px] sm:h-[470px] md:h-[530px] lg:h-[400px] mt-0 sm:mt-0 md:mt-0 rounded-lg p-2">
-                              <span className='text-[30px] text-red-600 font-bold sm:text-[50px] md:text-[70px] lg:text-[38px] xl:text-[45px]'>...we are party shakers</span>
-                              <p className='text-[22px] font-semibold sm:text-[36px] md:text-[41px] lg:text-3xl xl:text-4xl'>we've got a secret ingredient to make your parties shake with excitement! Imagine us as the musical magicians who bring the beats and rhythms that make your feet tap, your hips sway, and your heart dance. We're the ones with the coolest DJ music that's like a sprinkle of magic dust over your party</p>
+                              <span className='text-[30px] text-red-600 font-bold sm:text-[40px] md:text-[50px] lg:text-[38px] xl:text-[43px]'>...we are party shakers</span>
+                              <p className='text-[18px] font-semibold sm:text-[30px] md:text-[35px] lg:text-[25px] xl:text-[28px]'>we've got a secret ingredient to make your parties shake with excitement! Imagine us as the musical magicians who bring the beats and rhythms that make your feet tap, your hips sway, and your heart dance. We're the ones with the coolest DJ music that's like a sprinkle of magic dust over your party</p>
                       </aside>
 
                       <SlideShow images={slides.slides2} />
@@ -112,15 +112,15 @@ const slides = {
 
                       <SlideShow images={slides.slides3} />
                       <aside class="bg-yellow-300 h-[300px] sm:h-[470px] md:h-[530px] lg:h-[400px] mt-1 sm:mt-0 md:mt-0 rounded-lg p-2">
-                              <span className='text-[30px] text-red-600 font-bold sm:text-[50px] md:text-[70px] lg:text-[38px] xl:text-[45px]'>...we create</span>
-                              <p className='text-[22px] font-semibold sm:text-[36px] md:text-[41px] lg:text-3xl xl:text-4xl'>We're not just ordinary creators; we're the wizards behind the scenes, crafting enchanting items that capture the spirit of the amusement park. From whimsical artwork that captures the joy of the carousel to cozy blankets that make you feel like you're on the Ferris wheel, we pour our heart and soul into every creation.</p>
+                              <span className='text-[30px] text-red-600 font-bold sm:text-[40px] md:text-[50px] lg:text-[38px] xl:text-[43px]'>...we create</span>
+                              <p className='text-[18px] font-semibold sm:text-[30px] md:text-[35px] lg:text-[25px] xl:text-[28px]'>We're not just ordinary creators; we're the wizards behind the scenes, crafting enchanting items that capture the spirit of the amusement park. From whimsical artwork that captures the joy of the carousel to cozy blankets that make you feel like you're on the Ferris wheel, we pour our heart and soul into every creation.</p>
                       </aside>
                   </div>
   
                   <div className='bg-black sm:gap-2 md:gap-3 w-[380px] h-[690px] gap-1 sm:w-[600px] sm:h-[900px] md:w-[730px] md:h-[1000px] lg:w-[990px] lg:h-[450px] xl:w-[1150px] xl:h-[460px] grid sm:grid md:grid lg:grid-cols-2 bg-opacity-30 b-5 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-8 rounded-lg shadow-md'>
                       <aside class="bg-pink-300 h-[300px] sm:h-[470px] md:h-[530px] lg:h-[400px] mt-0 sm:mt-0 md:mt-0 rounded-lg p-2">
-                              <span className='text-[30px] text-red-600 font-bold sm:text-[50px] md:text-[70px] lg:text-[38px] xl:text-[45px]'>...we sell</span>
-                              <p className='text-[22px] font-semibold sm:text-[36px] md:text-[41px] lg:text-3xl xl:text-4xl'>Are you ready to take a piece of an amusement park magic? "bringing the thrill of the amusement park right to you Imagine this: you're riding the happiest roller coasters, playing the most exciting games. Now, what if we told you that you can keep that excitement alive even after you've left the park.</p>
+                              <span className='text-[30px] text-red-600 font-bold sm:text-[40px] md:text-[50px] lg:text-[38px] xl:text-[43px]'>...we sell</span>
+                              <p className='text-[18px] font-semibold sm:text-[30px] md:text-[35px] lg:text-[25px] xl:text-[28px]'>Are you ready to take a piece of an amusement park magic? "bringing the thrill of the amusement park right to you Imagine this: you're riding the happiest roller coasters, playing the most exciting games. Now, what if we told you that you can keep that excitement alive even after you've left the park.</p>
                       </aside>
 
                       <SlideShow images={slides.slides4} />
@@ -130,8 +130,8 @@ const slides = {
 
                       <SlideShow images={slides.slides5} />
                       <aside class="bg-cyan-300 h-[300px] sm:h-[470px] md:h-[530px] lg:h-[400px] mt-1 sm:mt-0 md:mt-0 rounded-lg p-2">
-                              <span className='text-[30px] text-red-600 font-bold sm:text-[50px] md:text-[70px] lg:text-[38px] xl:text-[45px]'>...we rent</span>
-                              <p className='text-[22px] font-semibold sm:text-[36px] md:text-[41px] lg:text-3xl xl:text-4xl'>Imagine this: the thrill of riding a roller coaster, the joy of playing games, and the wonder of exploring new worlds. Now, what if we told you that you can have all that excitement and more, anytime you want? That's exactly what "FunWorld Creations" is here for – to fill your days with play, and endless amusement!</p>
+                              <span className='text-[30px] text-red-600 font-bold sm:text-[40px] md:text-[50px] lg:text-[38px] xl:text-[43px]'>...we rent</span>
+                              <p className='text-[18px] font-semibold sm:text-[30px] md:text-[35px] lg:text-[25px] xl:text-[28px]'>Imagine this: the thrill of riding a roller coaster, the joy of playing games, and the wonder of exploring new worlds. Now, what if we told you that you can have all that excitement and more, anytime you want? That's exactly what "FunWorld Creations" is here for – to fill your days with play, and endless amusement!</p>
                       </aside>
                   </div> 
   
