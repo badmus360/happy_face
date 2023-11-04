@@ -404,7 +404,7 @@ const Activities = () => {
             </div>
 
             <div className='mt-4'>
-              <h2 className='text-red-600 text-[30px] sm:text-[50px] md:text-[60px] lg:text-[50px] xl:text-[60px] font-bold mb-2 text-center'>Cimbing Wall</h2>
+              <h2 className='text-red-600 text-[30px] sm:text-[50px] md:text-[60px] lg:text-[50px] xl:text-[60px] font-bold mb-2 text-center'>Wall Climber</h2>
               <p className='text-black font-semibold text-[20px] sm:text-[25px] md:text-[25px] lg:text-[25px] xl:text-[30px]'>There's a bouncy climbing wall that's ready for anyone to try, no matter how big or small they are...</p>
             </div>
           </div>

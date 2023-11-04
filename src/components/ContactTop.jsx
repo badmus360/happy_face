@@ -7,7 +7,7 @@ const ContactTop = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-
+ 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Here you can implement your logic to handle the form submission
@@ -67,7 +67,11 @@ const ContactTop = () => {
               <div className='lg:pt-2 xl:pt-4'>
                 <h1 className='text-green-500 font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-5xl'>Office Address</h1>
                 <p className='text-green-800 text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl'>
-                  22, Simbiat Abiola Way, Jara Mall, Ikeja, Lagos State, Nigeria
+                  Office 1: 22, Simbiat Abiola Way, Jara Mall, Ikeja.
+                </p>
+                <br></br>
+                <p className='text-green-800 text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl'>
+                  Office 2: 41, Adeshokan, Dopemu, Agege.
                 </p>
               </div>
             </div>
@@ -78,7 +82,7 @@ const ContactTop = () => {
               </div>
               <div className='xl:pt-0'>
               <h1 className='text-blue-500 font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-5xl'>Mail Address</h1>
-              <p className='text-blue-800 lg:text-3xl text-2xl sm:text-2xl md:text-2xl xl:text-4xl'>happyfacevents@gmail.org</p>
+              <p className='text-blue-800 lg:text-3xl text-2xl sm:text-2xl md:text-2xl xl:text-4xl'>happyfacekiddiesevent@gmail.com</p>
               </div>
             </div>
 
@@ -88,7 +92,7 @@ const ContactTop = () => {
               </div>
               <div className='xl:pt-0'>
               <h1 className='text-red-500 font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-5xl'>Customer Service</h1>
-              <p className='text-red-800 lg:text-3xl text-2xl sm:text-2xl md:text-2xl xl:text-4xl'>0701 701 1218, 0817 187 2043</p>
+              <p className='text-red-800 lg:text-3xl text-2xl sm:text-2xl md:text-2xl xl:text-4xl'>0701 127 1218, 0817 187 2043</p>
               </div>
             </div>
 
